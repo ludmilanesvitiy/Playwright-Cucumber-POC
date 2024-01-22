@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "outDir": "../out-tsc/app",
+      "module": "commonjs",
+      "target": "es2015",
+      "types": [
+        "node",
+        "cucumber",
+        "jest",
+        "playwright"
+      ]
+    },
+  "exclude": [
+    "node_modules"
+  ]
+}
